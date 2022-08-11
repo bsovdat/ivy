@@ -11,3 +11,6 @@ sigmoid.unsupported_dtypes = ("float16",)
 
 def tanh(input, out=None):
     return ivy.tanh(input, out=out)
+
+
+tanh.unsupported_dtypes = ("float16",)
