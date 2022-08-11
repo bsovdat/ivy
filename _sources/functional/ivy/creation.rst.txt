@@ -1,0 +1,34 @@
+Creation
+========
+
+.. automodule:: ivy.functional.ivy.creation
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: -1
+   :caption: Creation
+
+   creation/arange.rst
+   creation/asarray.rst
+   creation/zeros.rst
+   creation/ones.rst
+   creation/full_like.rst
+   creation/ones_like.rst
+   creation/zeros_like.rst
+   creation/tril.rst
+   creation/triu.rst
+   creation/empty.rst
+   creation/empty_like.rst
+   creation/eye.rst
+   creation/linspace.rst
+   creation/meshgrid.rst
+   creation/full.rst
+   creation/from_dlpack.rst
+   creation/native_array.rst
+   creation/logspace.rst
+

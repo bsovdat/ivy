@@ -1,0 +1,31 @@
+Manipulation
+============
+
+.. automodule:: ivy.functional.ivy.manipulation
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: -1
+   :caption: Manipulation
+
+   manipulation/concat.rst
+   manipulation/expand_dims.rst
+   manipulation/flip.rst
+   manipulation/permute_dims.rst
+   manipulation/reshape.rst
+   manipulation/roll.rst
+   manipulation/squeeze.rst
+   manipulation/stack.rst
+   manipulation/clip.rst
+   manipulation/constant_pad.rst
+   manipulation/repeat.rst
+   manipulation/split.rst
+   manipulation/swapaxes.rst
+   manipulation/tile.rst
+   manipulation/zero_pad.rst
+

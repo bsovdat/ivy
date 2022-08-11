@@ -1,0 +1,20 @@
+Searching
+=========
+
+.. automodule:: ivy.functional.ivy.searching
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: -1
+   :caption: Searching
+
+   searching/argmax.rst
+   searching/argmin.rst
+   searching/nonzero.rst
+   searching/where.rst
+
