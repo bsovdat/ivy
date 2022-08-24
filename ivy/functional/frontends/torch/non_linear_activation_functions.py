@@ -9,13 +9,6 @@ def sigmoid(input, out=None):
 sigmoid.unsupported_dtypes = ("float16",)
 
 
-def tanh(input, out=None):
-    return ivy.tanh(input, out=out)
-
-
-tanh.unsupported_dtypes = ("float16",)
-
-
 def leaky_relu(input, negative_slope=0.01):
     return ivy.leaky_relu(input, alpha=negative_slope)
 
@@ -41,3 +34,10 @@ def gelu(input, approximate="none"):
 
 
 gelu.unsupported_dtypes = ("float16",)
+
+
+def tanh(input, out=None):
+    return ivy.tanh(input, out=out)
+
+
+tanh.unsupported_dtypes = ("float16",)
