@@ -80,14 +80,14 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Framework Classes</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../stateful/converters.html">Converters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../stateful/sequential.html">Sequential</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../stateful/initializers.html">Initializers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../stateful/layers.html">Layers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../stateful/norms.html">Norms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stateful/converters.html">Converters</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../stateful/optimizers.html">Optimizers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../stateful/module.html">Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stateful/layers.html">Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stateful/norms.html">Norms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../stateful/activations.html">Activations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stateful/sequential.html">Sequential</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Docs</span></p>
 <ul>
@@ -345,7 +345,6 @@
             <span class="n">v</span><span class="p">,</span>
             <span class="n">grads</span><span class="p">,</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_lr</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_lr</span><span class="p">,</span> <span class="nb">float</span><span class="p">)</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">_lr</span><span class="p">(),</span>
-            <span class="n">inplace</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_inplace</span><span class="p">,</span>
             <span class="n">stop_gradients</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_stop_gradients</span><span class="p">,</span>
         <span class="p">)</span>
 
@@ -425,7 +424,6 @@
             <span class="n">grads</span><span class="p">,</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_lr</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_lr</span><span class="p">,</span> <span class="nb">float</span><span class="p">)</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">_lr</span><span class="p">(),</span>
             <span class="n">decay_lambda</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_decay_lambda</span><span class="p">,</span>
-            <span class="n">inplace</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_inplace</span><span class="p">,</span>
             <span class="n">stop_gradients</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_stop_gradients</span><span class="p">,</span>
         <span class="p">)</span>
 
@@ -532,7 +530,6 @@
             <span class="n">beta1</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_beta1</span><span class="p">,</span>
             <span class="n">beta2</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_beta2</span><span class="p">,</span>
             <span class="n">epsilon</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_epsilon</span><span class="p">,</span>
-            <span class="n">inplace</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_inplace</span><span class="p">,</span>
             <span class="n">stop_gradients</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_stop_gradients</span><span class="p">,</span>
         <span class="p">)</span>
         <span class="k">return</span> <span class="n">new_v</span>
@@ -649,7 +646,6 @@
             <span class="n">epsilon</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_epsilon</span><span class="p">,</span>
             <span class="n">max_trust_ratio</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_max_trust_ratio</span><span class="p">,</span>
             <span class="n">decay_lambda</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_decay_lambda</span><span class="p">,</span>
-            <span class="n">inplace</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_inplace</span><span class="p">,</span>
             <span class="n">stop_gradients</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_stop_gradients</span><span class="p">,</span>
         <span class="p">)</span>
         <span class="k">return</span> <span class="n">new_v</span>
